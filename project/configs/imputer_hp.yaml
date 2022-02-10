@@ -1,0 +1,33 @@
+---
+model : 'KnnImputer'
+hyper : {
+        num_neighbors : [13],
+        #weights : ["distance"],
+        #distance_metric : ["nan_euclidean"],
+}
+---
+model : 'ForestImputer'
+hyper : {
+    "max_iter": [5],
+    #"decreasing": [False],
+    #"n_estimators": [100],
+    #"min_samples_split": [2],
+    #"min_samples_leaf": [1],
+    #"min_weight_fraction_leaf": [0.0],
+    #"max_features": ["auto"],
+    #"min_impurity_decrease": [0.0],
+    #"bootstrap": [True],
+    #"oob_score": [False],
+    #"n_jobs": [-1],
+    "random_state": [666],
+    #"verbose": [0],
+    #"warm_start": [True],
+}
+
+
+
+
+
+
+
+

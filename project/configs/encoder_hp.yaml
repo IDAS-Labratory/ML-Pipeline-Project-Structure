@@ -1,0 +1,12 @@
+---
+model : 'BackwardDifferenceEncoder'
+hyper : {
+    verbose : [0], 
+    drop_invariant : [False],
+    return_df : [True],
+}
+---
+model : 'JamesSteinEncoder'
+hyper : {
+    random_state : [666],
+}

@@ -1,0 +1,25 @@
+---
+model : 'SMOTE'
+hyper : {
+    sampling_strategy : ['auto'],
+    k_neighbors : [3,5,7,9,11,13,15,17,19,23,25,27,29],
+    n_jobs : [-1],
+    #ratio : [None],
+    random_state : [666],
+}
+---
+model : 'SVMSMOTE'
+hyper : {
+    sampling_strategy : ['auto'],
+    k_neighbors : [3,5,7,9,11,13,15,17,19,23,25,27,29],
+    n_jobs : [-1],
+    #out_step=0.5,
+    random_state : [666],
+}
+
+
+
+
+
+
+
