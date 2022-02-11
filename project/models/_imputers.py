@@ -1,6 +1,5 @@
 # Import imputers
 from lib.impute import CustomKnnImputer
-from lib.impute import CustomForestImputer
 
 # Import auxiliary functions
 from project.utils import read_columns
@@ -11,16 +10,13 @@ __all__ = ["get_imputer"]
 columns_dict = read_columns()
 all_features = columns_dict["all_features"].copy()
 categorical_features = columns_dict["categorical_features"].copy()
-categorical_features_index = columns_dict["categorical_features_index"].copy()
 all_features.remove("h1n1_vaccine")
 
 imputers_dict = {
-    "ForestImputer": CustomForestImputer(category_cols=categorical_features_index),
     "KnnImputer": CustomKnnImputer(
         category_cols=categorical_features, cols=all_features
     ),
 }
-
 
 def get_imputer(names, config_file="project/configs/imputer_hp.yaml"):
     """

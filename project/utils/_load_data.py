@@ -44,44 +44,6 @@ ordinal_features = [
     "opinion_seas_sick_from_vacc",
 ]
 
-# Already obtained
-# It will be used in ForestImputer
-categorical_features_index = [
-    23,
-    24,
-    26,
-    27,
-    28,
-    5,
-    6,
-    2,
-    3,
-    4,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    29,
-    30,
-    33,
-    34,
-    21,
-    22,
-    25,
-    0,
-    1,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-]
-
 continous_features = [
     "household_adults",
     "household_children",
@@ -105,7 +67,6 @@ def read_columns():
         "categorical_features": categorical_features.copy(),
         "ordianl_features": ordinal_features.copy(),
         "nominal_features": nominal_features.copy(),
-        "categorical_features_index" : categorical_features_index.copy(),
     }
 
 
