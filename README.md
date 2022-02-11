@@ -2,7 +2,7 @@
 In this repository, we want to propose an organized structure for your ML projects to simplify traning and tuning lots of ML pipelines.
 This repository is based on (medium article)
 
-(add pipeline image)
+![Banner](https://github.com/IDAS-Labratory/Project-Structure-to-Run-Hundreds-of-ML-Pipelines/blob/master/docs/img/pipeline.png)
 
 
 ## Table of contents
@@ -108,40 +108,9 @@ To run this sample project just go to main_run.ipynb notebook and run all cells.
 
 ```
 
-## Data flow between directories
+### Data flow between directories
 [(Back to top)](#table-of-contents)
 
-<!-- This is the place where you give instructions to developers on how to modify the code.
+![Banner](https://github.com/IDAS-Labratory/Project-Structure-to-Run-Hundreds-of-ML-Pipelines/blob/master/docs/img/data-flow.png)
 
-You could give **instructions in depth** of **how the code works** and how everything is put together.
-
-You could also give specific instructions to how they can setup their development environment.
-
-Ideally, you should keep the README simple. If you need to add more complex explanations, use a wiki. Check out [this wiki](https://github.com/navendu-pottekkat/nsfw-filter/wiki) for inspiration. -->
-
-# Contribute
-[(Back to top)](#table-of-contents)
-
-<!-- This is where you can let people know how they can **contribute** to your project. Some of the ways are given below.
-
-Also this shows how you can add subsections within a section. -->
-
-
-
-<!-- Your project is gaining traction and it is being used by thousands of people(***with this README there will be even more***). Now it would be a good time to look for people or organisations to sponsor your project. This could be because you are not generating any revenue from your project and you require money for keeping the project alive.
-
-You could add how people can sponsor your project in this section. Add your patreon or GitHub sponsor link here for easy access.
-
-A good idea is to also display the sponsors with their organisation logos or badges to show them your love!(*Someday I will get a sponsor and I can show my love*) -->
-
-### Adding new features or fixing bugs
-[(Back to top)](#table-of-contents)
-
-<!-- This is to give people an idea how they can raise issues or feature requests in your projects. 
-
-You could also give guidelines for submitting and issue or a pull request to your project.
-
-Personally and by standard, you should use a [issue template](https://github.com/navendu-pottekkat/nsfw-filter/blob/master/ISSUE_TEMPLATE.md) and a [pull request template](https://github.com/navendu-pottekkat/nsfw-filter/blob/master/PULL_REQ_TEMPLATE.md)(click for examples) so that when a user opens a new issue they could easily format it as per your project guidelines.
-
-You could also add contact details for people to get in touch with you regarding your project. -->
 
