@@ -1,6 +1,6 @@
 # Project structure to Run Hundreds of ML Pipelines
 In this repository, we want to propose an organized structure for your ML projects to simplify traning and tuning lots of ML pipelines.
-This repository is based on (medium article)
+This repository is based on https://medium.com/@a.larian/how-to-structure-your-machine-learning-project-to-run-hundreds-of-pipelines-960fcc4c877a
 
 ![Banner](https://github.com/IDAS-Labratory/Project-Structure-to-Run-Hundreds-of-ML-Pipelines/blob/master/docs/img/pipeline.png)
 
